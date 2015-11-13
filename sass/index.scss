@@ -1,0 +1,61 @@
+.header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8d008e+0,dd0042+100 */
+	background: #8d008e; /* Old browsers */
+	background: -moz-linear-gradient(left,  #8d008e 0%, #dd0042 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8d008e), color-stop(100%,#dd0042)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #8d008e 0%,#dd0042 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #8d008e 0%,#dd0042 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #8d008e 0%,#dd0042 100%); /* IE10+ */
+	background: linear-gradient(to right,  #8d008e 0%,#dd0042 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d008e', endColorstr='#dd0042',GradientType=1 ); /* IE6-9 */
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	
+	&__logo {
+		padding: 5px;
+
+		img {
+			height: 100%;
+		}
+	}
+
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 3px;
+		color: #fff;
+	}
+
+	&__join {
+
+		.btn {
+			background: #8d008e;
+			background-image: -webkit-linear-gradient(left, #8d008e, #dd0042);
+			background-image: -moz-linear-gradient(left, #8d008e, #dd0042);
+			background-image: -ms-linear-gradient(left, #8d008e, #dd0042);
+			background-image: -o-linear-gradient(left, #8d008e, #dd0042);
+			background-image: linear-gradient(to right, #8d008e, #dd0042);
+			-webkit-border-radius: 6;
+			-moz-border-radius: 6;
+			border-radius: 6px;
+			font-family: Arial;
+			color: #ffffff;
+			font-size: 20px;
+			padding: 10px 20px 10px 20px;
+			text-decoration: none;
+			background-repeat: repeat;
+		}
+
+		.btn:hover {
+			background: #ff4a80;
+			background-image: -webkit-linear-gradient(left, #ff4a80, #cf54d1);
+			background-image: -moz-linear-gradient(left, #ff4a80, #cf54d1);
+			background-image: -ms-linear-gradient(left, #ff4a80, #cf54d1);
+			background-image: -o-linear-gradient(left, #ff4a80, #cf54d1);
+			background-image: linear-gradient(to right, #ff4a80, #cf54d1);
+			text-decoration: none;
+		}
+
+	}
+}
