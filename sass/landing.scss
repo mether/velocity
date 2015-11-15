@@ -1,64 +1,115 @@
-html, body{
-	width: 100%;
-	height: 100%;
-	padding: 0;
-	margin: 0;
-}
-
 .landing {
 	background-image: url("../img/landing.jpg");
 	background-position: 50% 20%;
-	background-size: 100%;
-	height: 100%;
+	background-size: cover;
+	height: 150%;
 	width: 100%;
 	position: relative;
 
-	&__overlay {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		width: 100%;
-		height: 100%;
-		background: #8d008e; /* Old browsers */
-		background: -moz-linear-gradient(bottom,  #8d008e 0%, #dd0042 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#8d008e), color-stop(100%,#dd0042)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(bottom,  #8d008e 0%,#dd0042 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(bottom,  #8d008e 0%,#dd0042 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(bottom,  #8d008e 0%,#dd0042 100%); /* IE10+ */
-		background: linear-gradient(to top,  #8d008e 0%,#dd0042 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d008e', endColorstr='#dd0042',GradientType=1 ); /* IE6-9 */
-		opacity: 0.7;
-
-	}
-
 	&__tagline{
+
 		position: absolute;
-		top: 50%;
+		top: 60%;
 		left: 50%;
 		-moz-transform: translateY(-70%) translateX(-50%);
 		-o-transform: translateY(-70%) translateX(-50%);
 		-ms-transform: translateY(-70%) translateX(-50%);
 		-webkit-transform: translateY(-70%) translateX(-50%);
 		transform: translateY(-70%) translateX(-50%);
-		width: 100%;
+		//width: 100%;
 		color: #fff;
 
 	}
 	&__earn{
 		position: absolute;
-		bottom: 10%;
+		bottom: 5%;
 		left: 0px;
 		color: #fff;
 
 
 	}
 
-
 }
 
 .partners {
-	&__icons{
-		display: block;
-		margin: 0 auto;
-	}
+
+    .content{
+        &__icons{
+            max-width: 200px;
+        }
+        h2, p {
+            color: #dd0042;
+        }
+        h2{
+            font-family: openSans-bold;
+        }
+    }
+
+
+}
+
+.benefits {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    .title {
+        background-image: url("../img/benefits.jpg");
+        background-position: 50% 40%;
+
+    }
+
+    .content {
+        position: relative;
+        .wrapper{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translateY(-50%) translateX(-50%);
+            -o-transform: translateY(-50%) translateX(-50%);
+            -ms-transform: translateY(-50%) translateX(-50%);
+            -webkit-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+            width: 100%;
+        }
+
+        h1{
+            font-size: 5em;
+            //margin: 0px;
+            color: #dd0042;
+        }
+
+        &__icons{
+            max-width: 280px;
+        }
+    }
+
+
+
+}
+
+.rewards {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    .title {
+        background-image: url("../img/rewards.jpg");
+        background-position: 70% 90%;
+
+    }
+
+    .content {
+        background-image: url("../img/rewards-back.png");
+        background-size: cover;
+        background-position: 100% 80%;
+        &__icons {
+            max-width: 200px;
+        }
+        h2, p {
+            color: #dd0042;
+        }
+        h2 {
+            font-family: openSans-bold;
+        }
+    }
 }

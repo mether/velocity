@@ -1,58 +1,74 @@
-html, body {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0; }
-
 .landing {
   background-image: url("../img/landing.jpg");
   background-position: 50% 20%;
-  background-size: 100%;
-  height: 100%;
+  background-size: cover;
+  height: 150%;
   width: 100%;
   position: relative; }
-  .landing__overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background: #8d008e;
-    /* Old browsers */
-    background: -moz-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #8d008e), color-stop(100%, #dd0042));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
-    /* IE10+ */
-    background: linear-gradient(to top, #8d008e 0%, #dd0042 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d008e', endColorstr='#dd0042',GradientType=1 );
-    /* IE6-9 */
-    opacity: 0.7; }
   .landing__tagline {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     -moz-transform: translateY(-70%) translateX(-50%);
     -o-transform: translateY(-70%) translateX(-50%);
     -ms-transform: translateY(-70%) translateX(-50%);
     -webkit-transform: translateY(-70%) translateX(-50%);
     transform: translateY(-70%) translateX(-50%);
-    width: 100%;
     color: #fff; }
   .landing__earn {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 0px;
     color: #fff; }
 
-.partners__icons {
-  display: block;
-  margin: 0 auto; }
+.partners .content__icons {
+  max-width: 200px; }
+.partners .content h2, .partners .content p {
+  color: #dd0042; }
+.partners .content h2 {
+  font-family: openSans-bold; }
+
+.benefits {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  .benefits .title {
+    background-image: url("../img/benefits.jpg");
+    background-position: 50% 40%; }
+  .benefits .content {
+    position: relative; }
+    .benefits .content .wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -moz-transform: translateY(-50%) translateX(-50%);
+      -o-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+      -webkit-transform: translateY(-50%) translateX(-50%);
+      transform: translateY(-50%) translateX(-50%);
+      width: 100%; }
+    .benefits .content h1 {
+      font-size: 5em;
+      color: #dd0042; }
+    .benefits .content__icons {
+      max-width: 280px; }
+
+.rewards {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  .rewards .title {
+    background-image: url("../img/rewards.jpg");
+    background-position: 70% 90%; }
+  .rewards .content {
+    background-image: url("../img/rewards-back.png");
+    background-size: cover;
+    background-position: 100% 80%; }
+    .rewards .content__icons {
+      max-width: 200px; }
+    .rewards .content h2, .rewards .content p {
+      color: #dd0042; }
+    .rewards .content h2 {
+      font-family: openSans-bold; }
 
 /*# sourceMappingURL=landing.css.map */
