@@ -54,7 +54,7 @@
     </div>
 </nav>
 
-<div id="top" class="landing">
+<div id="top" class="parallax-window landing" data-parallax="scroll" data-image-src="img/landing.jpg">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -76,7 +76,7 @@
     </div>
 </div>
 
-<div class="partners container-fluid">
+<div class="partners container-fluid" >
     <div class="row content">
         <div class="col-md-4">
             <img src="img/points-card.png" class="img-circle content__icons">
@@ -96,8 +96,8 @@
     </div>
 </div>
 
-<div class="benefits container-fluid">
-    <div class="row title">
+<div class="benefits container-fluid" >
+    <div class="parallax-window row title" data-parallax="scroll" data-image-src="img/benefits.jpg">
         <div class="overlay"></div>
         <div class="col-md-6 col-sm-12 col-xs-12  title__heading text-center">
             <h1>Start Enjoying the Benefits</h1>
@@ -120,7 +120,7 @@
 </div>
 
 <div class="rewards container-fluid">
-    <div class="row title">
+    <div class="parallax-window row title" data-parallax="scroll" data-image-src="img/rewards.jpg">
         <div class="overlay"></div>
         <div class="col-md-6 col-sm-12 col-xs-12 title__heading text-center">
             <h1>Claim Your Rewards</h1>
@@ -204,7 +204,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="" class="button registerNav">
+                                <a href="" disbled class="button registerNav">
                                     <span>Continue</span>
                                 </a>
                             </div>
@@ -309,7 +309,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <span class="input input--ruri">
-                                            <input class="input__field input__field--ruri" type="text" id="bday" />
+                                            <input class="input__field input__field--ruri" ng-model="day" type="text" id="bday" />
                                             <label class="input__label input__label--ruri" for="bday">
                                                 <span class="input__label-content input__label-content--ruri">Day</span>
                                             </label>
@@ -317,7 +317,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <span class="input input--ruri">
-                                            <input class="input__field input__field--ruri" type="text" id="bmonth" />
+                                            <input class="input__field input__field--ruri" ng-model="month" type="text" id="bmonth" />
                                             <label class="input__label input__label--ruri" for="bmonth">
                                                 <span class="input__label-content input__label-content--ruri">Month</span>
                                             </label>
@@ -325,7 +325,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <span class="input input--ruri">
-                                            <input class="input__field input__field--ruri" type="text" id="byear" />
+                                            <input class="input__field input__field--ruri" ng-model="year" type="text" id="byear" />
                                             <label class="input__label input__label--ruri" for="byear">
                                                 <span class="input__label-content input__label-content--ruri">Year</span>
                                             </label>
@@ -395,12 +395,6 @@
                                     <span class="input__label-content input__label-content--ruri">Address</span>
                                 </label>
                             </span>
-                            <span class="input input--ruri">
-                                <input class="input__field input__field--ruri" type="text" id="cBirth" />
-                                <label class="input__label input__label--ruri" for="cBirth">
-                                    <span class="input__label-content input__label-content--ruri">Date of Birth</span>
-                                </label>
-                            </span>
 
                         </div>
                         <div class="col-md-6">
@@ -410,12 +404,27 @@
                                     <span class="input__label-content input__label-content--ruri">Email</span>
                                 </label>
                             </span>
-                            <span class="input input--ruri">
-                                <input class="input__field input__field--ruri" value="{{phone}}" type="text" id="cPhone" />
-                                <label class="input__label input__label--ruri" for="cPhone">
-                                    <span class="input__label-content input__label-content--ruri">Phone</span>
-                                </label>
-                            </span>
+
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                    <span class="input input--ruri">
+                                        <input class="input__field input__field--ruri" value="{{phone}}" type="text" id="cPhone" />
+                                        <label class="input__label input__label--ruri" for="cPhone">
+                                            <span class="input__label-content input__label-content--ruri">Phone</span>
+                                        </label>
+                                    </span>
+                                    </div>
+                                    <div class="col-md-4">
+                                    <span class="input input--ruri">
+                                        <input class="input__field input__field--ruri" value="{{day + '/' + month + '/' + year}}" type="text" id="cBirth" />
+                                        <label class="input__label input__label--ruri" for="cBirth">
+                                            <span class="input__label-content input__label-content--ruri">Birthday</span>
+                                        </label>
+                                    </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-12">
                             <a href="" class="button registerNav">
@@ -435,49 +444,8 @@
 <script src="js/flickity.pkgd.min.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/selectFx.js"></script>
+<script src="js/parallax.min.js"></script>
 
-<script>
-    (function() {
-        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-        if (!String.prototype.trim) {
-            (function() {
-                // Make sure we trim BOM and NBSP
-                var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-                String.prototype.trim = function() {
-                    return this.replace(rtrim, '');
-                };
-            })();
-        }
-
-        [].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
-            // in case the input is already filled..
-            if( inputEl.value.trim() !== '' ) {
-                classie.add( inputEl.parentNode, 'input--filled' );
-            }
-
-            // events:
-            inputEl.addEventListener( 'focus', onInputFocus );
-            inputEl.addEventListener( 'blur', onInputBlur );
-        } );
-
-        function onInputFocus( ev ) {
-            classie.add( ev.target.parentNode, 'input--filled' );
-        }
-
-        function onInputBlur( ev ) {
-            if( ev.target.value.trim() === '' ) {
-                classie.remove( ev.target.parentNode, 'input--filled' );
-            }
-        }
-    })();
-</script>
-<script>
-    (function() {
-        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
-            new SelectFx(el);
-        } );
-    })();
-</script>
 <script src="js/main.js"></script>
 
 </body>

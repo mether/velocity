@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e44fc1-041d-48e7-ab9a-384d9eb3fc3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/mediaQueries.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/beach.png" afterPath="$PROJECT_DIR$/img/beach.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/benefits-choices.png" afterPath="$PROJECT_DIR$/img/benefits-choices.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/benefits-value.png" afterPath="$PROJECT_DIR$/img/benefits-value.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/benefits.jpg" afterPath="$PROJECT_DIR$/img/benefits.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/card-back.png" afterPath="$PROJECT_DIR$/img/card-back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cart.png" afterPath="$PROJECT_DIR$/img/cart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/landing.jpg" afterPath="$PROJECT_DIR$/img/landing.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/luggage.png" afterPath="$PROJECT_DIR$/img/luggage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plane.png" afterPath="$PROJECT_DIR$/img/plane.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/points-card.png" afterPath="$PROJECT_DIR$/img/points-card.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/points-everyday.png" afterPath="$PROJECT_DIR$/img/points-everyday.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/points-fuel.png" afterPath="$PROJECT_DIR$/img/points-fuel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/rewards-back.png" afterPath="$PROJECT_DIR$/img/rewards-back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/rewards.jpg" afterPath="$PROJECT_DIR$/img/rewards.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/user.png" afterPath="$PROJECT_DIR$/img/user.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/index.scss" afterPath="$PROJECT_DIR$/sass/index.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing.css.map" afterPath="$PROJECT_DIR$/css/landing.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing.css" afterPath="$PROJECT_DIR$/css/landing.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/landing.scss" afterPath="$PROJECT_DIR$/sass/landing.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/register.css.map" afterPath="$PROJECT_DIR$/css/register.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/register.css" afterPath="$PROJECT_DIR$/css/register.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/register.scss" afterPath="$PROJECT_DIR$/sass/register.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Velocity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,55 +47,9 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.34497815">
-                  <caret line="215" column="18" selection-start-line="147" selection-start-column="12" selection-end-line="215" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.52401745">
+                  <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="angular.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/angular.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="classie.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/classie.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="selectFx.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/selectFx.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -104,21 +64,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="set2.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/set2.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.8888888">
-                  <caret line="943" column="13" selection-start-line="943" selection-start-column="13" selection-end-line="943" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+                  <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -160,21 +110,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="landing.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="landing.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/landing.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.875">
-                  <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.6331878">
+                  <caret line="75" column="8" selection-start-line="75" selection-start-column="10" selection-end-line="77" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="register.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="register.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/register.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4532488">
-                  <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+                <state vertical-scroll-proportion="-1.6875">
+                  <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -191,14 +141,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/register.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/sass/mediaQueries.scss" />
-        <option value="$PROJECT_DIR$/sass/landing.scss" />
         <option value="$PROJECT_DIR$/sass/index.scss" />
         <option value="$PROJECT_DIR$/sass/dropdown.scss" />
         <option value="$PROJECT_DIR$/css/set2.css" />
         <option value="$PROJECT_DIR$/sass/register.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/landing.scss" />
       </list>
     </option>
   </component>
@@ -605,66 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/set2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8888888">
           <caret line="943" column="13" selection-start-line="943" selection-start-column="13" selection-end-line="943" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/classie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/selectFx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -679,16 +573,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/register.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4532488">
-          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+        <state vertical-scroll-proportion="-1.6875">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/selectFx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.47679326">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6329114">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34497815">
-          <caret line="215" column="18" selection-start-line="147" selection-start-column="12" selection-end-line="215" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.52401745">
+          <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6331878">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="10" selection-end-line="77" selection-end-column="33" />
           <folding />
         </state>
       </provider>
