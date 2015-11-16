@@ -1,4 +1,6 @@
 .landing {
+  background-image: url("../img/landing.jpg");
+  background-size: cover;
   height: 150%;
   width: 100%;
   position: relative; }
@@ -26,12 +28,21 @@
 .partners .content h2 {
   font-family: openSans-bold, sans-serif; }
 
+.benefits .title {
+  background-image: url("../img/benefits.jpg");
+  background-position: 50% 0%;
+  background-size: cover;
+  background-attachment: fixed; }
 .benefits .content h1 {
   font-size: 5em;
   color: #dd0042; }
 .benefits .content__icons {
   max-width: 280px; }
 
+.rewards .title {
+  background-image: url("../img/rewards.jpg");
+  background-position: 70% 90%;
+  background-size: cover; }
 .rewards .content {
   background-image: url("../img/rewards-back.png");
   background-size: cover;

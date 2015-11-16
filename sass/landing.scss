@@ -1,10 +1,11 @@
 .landing {
-	//background-image: url("../img/landing.jpg");
+	background-image: url("../img/landing.jpg");
 	//background-position: 50% 20%;
-	//background-size: cover;
+	background-size: cover;
 	height: 150%;
 	width: 100%;
 	position: relative;
+    //background-attachment: fixed;
 
 	&__tagline{
 
@@ -51,9 +52,11 @@
 .benefits {
 
     .title {
-        //background-image: url("../img/benefits.jpg");
-        //background-position: 50% 40%;
-        //background-size: cover;
+        background-image: url("../img/benefits.jpg");
+        background-position: 50% 0%;
+        background-size: cover;
+        background-attachment: fixed;
+
     }
 
     .content {
@@ -73,9 +76,9 @@
 
 .rewards {
     .title {
-        //background-image: url("../img/rewards.jpg");
-        //background-position: 70% 90%;
-        //background-size: cover;
+        background-image: url("../img/rewards.jpg");
+        background-position: 70% 90%;
+        background-size: cover;
     }
 
 
@@ -95,3 +98,4 @@
         }
     }
 }
+
