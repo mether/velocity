@@ -1,7 +1,8 @@
 .landing {
   height: 150%;
   width: 100%;
-  position: relative; }
+  position: relative;
+  background-attachment: fixed; }
   .landing__tagline {
     position: absolute;
     top: 50%;

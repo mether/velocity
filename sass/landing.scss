@@ -5,6 +5,7 @@
 	height: 150%;
 	width: 100%;
 	position: relative;
+    background-attachment: fixed;
 
 	&__tagline{
 
@@ -61,6 +62,7 @@
             font-size: 5em;
             color: #dd0042;
         }
+
 
         &__icons{
             max-width: 280px;
