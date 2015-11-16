@@ -2,8 +2,6 @@
   height: 100%;
   width: 100%; }
   .register .title {
-    background-image: url("../img/benefits.jpg");
-    background-position: 50% 40%;
     height: 30%; }
   .register .content {
     font-family: 'openSans-light', Helvetica;

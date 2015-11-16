@@ -78,4 +78,9 @@ $(window).load(function(){
         $gallery.flickity('next');
     });
 
+$.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 40
+    });
+
 });

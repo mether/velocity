@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e44fc1-041d-48e7-ab9a-384d9eb3fc3f" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing.css.map" afterPath="$PROJECT_DIR$/css/landing.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing.css" afterPath="$PROJECT_DIR$/css/landing.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/landing.scss" afterPath="$PROJECT_DIR$/sass/landing.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/mediaQueries.scss" afterPath="$PROJECT_DIR$/sass/mediaQueries.scss" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing.css.map" afterPath="$PROJECT_DIR$/css/landing.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landing.css" afterPath="$PROJECT_DIR$/css/landing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/landing.scss" afterPath="$PROJECT_DIR$/sass/landing.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/register.css.map" afterPath="$PROJECT_DIR$/css/register.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/register.css" afterPath="$PROJECT_DIR$/css/register.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/register.scss" afterPath="$PROJECT_DIR$/sass/register.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
     </list>
     <ignored path="Velocity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +43,13 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state vertical-scroll-proportion="-1.25">
                   <caret line="119" column="6" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+=======
+                <state vertical-scroll-proportion="0.5021834">
+                  <caret line="95" column="63" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="63" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
                   <folding />
                 </state>
               </provider>
@@ -41,7 +58,11 @@
           <file leaf-file-name="dropdown.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/dropdown.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state vertical-scroll-proportion="0.0">
+=======
+                <state vertical-scroll-proportion="-0.0">
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
                   <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
                   <folding />
                 </state>
@@ -52,7 +73,7 @@
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+                  <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -64,7 +85,7 @@
             <entry file="file://$PROJECT_DIR$/css/register.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+                  <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -73,8 +94,13 @@
           <file leaf-file-name="mediaQueries.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/mediaQueries.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state vertical-scroll-proportion="0.52100843">
                   <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+=======
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
                   <folding />
                 </state>
               </provider>
@@ -87,8 +113,13 @@
           <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/index.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state vertical-scroll-proportion="-33.75">
                   <caret line="149" column="23" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="23" />
+=======
+                <state vertical-scroll-proportion="-60.0">
+                  <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
                   <folding />
                 </state>
               </provider>
@@ -97,8 +128,13 @@
           <file leaf-file-name="landing.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/landing.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state vertical-scroll-proportion="0.60504204">
                   <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+=======
+                <state vertical-scroll-proportion="0.5676856">
+                  <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
                   <folding />
                 </state>
               </provider>
@@ -107,8 +143,13 @@
           <file leaf-file-name="register.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/register.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state vertical-scroll-proportion="0.0">
                   <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+=======
+                <state vertical-scroll-proportion="95.75">
+                  <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="6" selection-end-column="39" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
                   <folding />
                 </state>
               </provider>
@@ -125,10 +166,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/register.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/sass/index.scss" />
+=======
+        <option value="$PROJECT_DIR$/sass/mediaQueries.scss" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
         <option value="$PROJECT_DIR$/sass/dropdown.scss" />
         <option value="$PROJECT_DIR$/css/set2.css" />
         <option value="$PROJECT_DIR$/sass/register.scss" />
+        <option value="$PROJECT_DIR$/sass/index.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/landing.scss" />
@@ -171,8 +217,11 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,6 +330,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +407,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12578125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11180556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -583,15 +638,22 @@
     <entry file="file://$PROJECT_DIR$/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/sass/dropdown.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/sass/mediaQueries.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
           <folding />
         </state>
       </provider>
@@ -600,6 +662,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8888888">
           <caret line="943" column="13" selection-start-line="943" selection-start-column="13" selection-end-line="943" selection-end-column="13" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -607,6 +670,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+=======
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
           <folding />
         </state>
       </provider>
@@ -649,26 +714,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.0">
+          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/register.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="95.75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/dropdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/sass/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-33.75">
           <caret line="149" column="23" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/sass/landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5676856">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/landing.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.60504204">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
@@ -687,6 +784,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52100843">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+=======
+        <state vertical-scroll-proportion="0.5021834">
+          <caret line="95" column="63" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="63" />
+>>>>>>> e074f9fb61da401f2a15d608008154ecb561e351
           <folding />
         </state>
       </provider>
