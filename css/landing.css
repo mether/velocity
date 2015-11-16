@@ -7,7 +7,7 @@
   position: relative; }
   .landing__tagline {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     -moz-transform: translateY(-70%) translateX(-50%);
     -o-transform: translateY(-70%) translateX(-50%);
@@ -22,53 +22,36 @@
     color: #fff; }
 
 .partners .content__icons {
-  max-width: 200px; }
+  max-width: 200px;
+  margin-top: 1em; }
 .partners .content h2, .partners .content p {
   color: #dd0042; }
 .partners .content h2 {
-  font-family: openSans-bold; }
+  font-family: openSans-bold, sans-serif; }
 
-.benefits {
-  height: 100%;
-  width: 100%;
-  position: relative; }
-  .benefits .title {
-    background-image: url("../img/benefits.jpg");
-    background-position: 50% 40%; }
-  .benefits .content {
-    position: relative; }
-    .benefits .content .wrapper {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -moz-transform: translateY(-50%) translateX(-50%);
-      -o-transform: translateY(-50%) translateX(-50%);
-      -ms-transform: translateY(-50%) translateX(-50%);
-      -webkit-transform: translateY(-50%) translateX(-50%);
-      transform: translateY(-50%) translateX(-50%);
-      width: 100%; }
-    .benefits .content h1 {
-      font-size: 5em;
-      color: #dd0042; }
-    .benefits .content__icons {
-      max-width: 280px; }
+.benefits .title {
+  background-image: url("../img/benefits.jpg");
+  background-position: 50% 40%;
+  background-size: cover; }
+.benefits .content h1 {
+  font-size: 5em;
+  color: #dd0042; }
+.benefits .content__icons {
+  max-width: 280px; }
 
-.rewards {
-  height: 100%;
-  width: 100%;
-  position: relative; }
-  .rewards .title {
-    background-image: url("../img/rewards.jpg");
-    background-position: 70% 90%; }
-  .rewards .content {
-    background-image: url("../img/rewards-back.png");
-    background-size: cover;
-    background-position: 100% 80%; }
-    .rewards .content__icons {
-      max-width: 200px; }
-    .rewards .content h2, .rewards .content p {
-      color: #dd0042; }
-    .rewards .content h2 {
-      font-family: openSans-bold; }
+.rewards .title {
+  background-image: url("../img/rewards.jpg");
+  background-position: 70% 90%;
+  background-size: cover; }
+.rewards .content {
+  background-image: url("../img/rewards-back.png");
+  background-size: cover;
+  background-position: 100% 80%; }
+  .rewards .content__icons {
+    max-width: 200px; }
+  .rewards .content h2, .rewards .content p {
+    color: #dd0042; }
+  .rewards .content h2 {
+    font-family: openSans-bold; }
 
 /*# sourceMappingURL=landing.css.map */

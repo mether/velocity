@@ -1,0 +1,19 @@
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .rewards, .benefits {
+    height: 100%;
+    width: 100%; }
+    .rewards .title, .benefits .title {
+      height: 50%; }
+    .rewards .content, .benefits .content {
+      height: 50%; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .nav .button {
+    margin-top: 10px; } }
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=mediaQueries.css.map */

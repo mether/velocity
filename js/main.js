@@ -8,8 +8,34 @@
 //    }
 //});
 
-var $gallery = $('.gallery');
+$(window).load(function(){
 
-$('.registerNav').on( 'click', function() {
-    $gallery.flickity('next');
+
+
+    $('a[href*=#]:not([href=#]):not([href=#myCarousel])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 70
+                }, 500);
+                return false;
+            }
+        }
+    });
+
+
+    $("a").click(function(e) {
+        e.preventDefault();
+    });
+
+    var $gallery = $('.gallery');
+
+    $('.registerNav').on( 'click', function() {
+        $gallery.flickity('next');
+    });
+
 });

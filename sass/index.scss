@@ -47,6 +47,7 @@ html, body{
         }
     }
 
+
     .navbar-brand,
     .navbar-nav li img {
         height: 70px;
@@ -64,11 +65,14 @@ html, body{
         color: #fff;
     }
 
-    &__join {
+
+}
 
 
-
-    }
+.navbar-header .button {
+    float: right;
+    max-width: 150px;
+    margin-right:10px;
 }
 
 .overlay {
@@ -90,10 +94,11 @@ html, body{
 }
 
 .title {
-    height: 50%;
+    //height: 50%;
     position: relative;
     color: #fff;
     background-size: 100%;
+    min-height: 200px;
 
 
     &__heading {
@@ -109,8 +114,9 @@ html, body{
 }
 
 .content {
-    height: 50%;
+    //height: 50%;
     padding: 3em;
+    min-height: 100px;
 
     &__icons{
         display: block;
@@ -132,7 +138,7 @@ html, body{
     font-weight: 300;
 
     margin: 2px auto;
-    margin-top: 10px;
+    //margin-top: 10px;
 
 
 
@@ -198,3 +204,4 @@ html, body{
         top: 50%;
     }
 }
+
