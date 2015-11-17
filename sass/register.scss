@@ -3,16 +3,16 @@
     width: 100%;
 
     .title {
-        //background-image: url("../img/benefits.jpg");
-        //background-position: 50% 40%;
-        height: 30%;
+        background-image: url("../img/benefits.jpg");
+        background-position: 50% 40%;
+        height: 15%;
 
     }
 
     .content {
 
         font-family:'openSans-light', Helvetica;
-        height: 70%;
+        height: 85%;
 
         position: relative;
         padding: 0px;
@@ -39,9 +39,8 @@
                 background-size: cover;
                 background-position: 50% 10%;
                 //position: relative;
-
-
             }
+            
             &.slide3{
                 background-image: url('../img/plane.png');
                 background-size: cover;
@@ -55,7 +54,6 @@
                 background-size: cover;
                 background-position: 50% 10%;
                 position: relative;
-
 
             }
         }
@@ -79,7 +77,6 @@
         .flickity-page-dots {
             display: none;
         }
-
 
         .card {
             background-color: #333333;
@@ -119,7 +116,6 @@
                 border-right: 14.5em solid #e6e6e6;
                 margin-top: 2em;
                 border-radius: 20px;
-
             }
 
             form{
@@ -128,12 +124,7 @@
                 margin-left: 11.6em;
                 border-radius: 20px;
                 padding: 3em;
-
-
             }
-
-
-
 
             h2 {
                 color: #fff;
@@ -156,12 +147,10 @@
                 margin: 0 auto;
             }
 
-
             h2 {
                 //color: #fff;
                 //text-align: right;
             }
-
         }
 
         .ticket {
@@ -183,16 +172,10 @@
                 margin: 0 auto;
             }
 
-
             h2 {
                 color: #fff;
                 //text-align: right;
             }
-
-
-
-
-
         }
     }
 }

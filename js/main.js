@@ -11,6 +11,7 @@
 $(window).load(function(){
 
 
+    // Smooth Scroll Function
 
     $('a[href*=#]:not([href=#]):not([href=#myCarousel])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -26,6 +27,8 @@ $(window).load(function(){
             }
         }
     });
+
+    // Input animation
 
     (function() {
         // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
@@ -61,26 +64,33 @@ $(window).load(function(){
         }
     })();
 
+    // Select animation
+
     (function() {
         [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
             new SelectFx(el);
         } );
     })();
 
+    // Stop anchors from refreshing the page
 
     $("a").click(function(e) {
         e.preventDefault();
     });
 
+    // Init register gallery
+
     var $gallery = $('.gallery');
+
+    // Register gallery continue
 
     $('.registerNav').on( 'click', function() {
         $gallery.flickity('next');
     });
 
-$.stellar({
-        horizontalScrolling: false,
-        verticalOffset: 40
-    });
+//$.stellar({
+//        horizontalScrolling: false,
+//        verticalOffset: 40
+//    });
 
 });

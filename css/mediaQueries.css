@@ -8,7 +8,10 @@
     .rewards .title, .benefits .title {
       height: 50%; }
     .rewards .content, .benefits .content {
-      height: 50%; } }
+      height: 50%; }
+
+  .benefits .content {
+    padding-bottom: 2em; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .nav .button {

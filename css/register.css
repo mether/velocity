@@ -2,10 +2,12 @@
   height: 100%;
   width: 100%; }
   .register .title {
-    height: 30%; }
+    background-image: url("../img/benefits.jpg");
+    background-position: 50% 40%;
+    height: 15%; }
   .register .content {
     font-family: 'openSans-light', Helvetica;
-    height: 70%;
+    height: 85%;
     position: relative;
     padding: 0px; }
     .register .content .gallery {

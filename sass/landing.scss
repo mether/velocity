@@ -1,11 +1,11 @@
 .landing {
-	//background-image: url("../img/landing.jpg");
-	//background-position: 50% 20%;
-	//background-size: cover;
+	background-image: url("../img/landing.jpg");
+	background-position: 50% 20%;
+	background-size: cover;
 	height: 150%;
 	width: 100%;
 	position: relative;
-    background-attachment: fixed;
+    //background-attachment: fixed;
 
 	&__tagline{
 
@@ -52,12 +52,14 @@
 .benefits {
 
     .title {
-        //background-image: url("../img/benefits.jpg");
-        //background-position: 50% 40%;
-        //background-size: cover;
+        background-image: url("../img/benefits.jpg");
+        background-position: 50% 40%;
+        background-size: cover;
     }
 
     .content {
+
+
         h1{
             font-size: 5em;
             color: #dd0042;
@@ -67,6 +69,63 @@
         &__icons{
             max-width: 280px;
         }
+
+        .view {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+            border: 10px solid #fff;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            box-shadow: 1px 1px 2px #e6e6e6;
+            cursor: default;
+            background: #fff url(../images/bgimg.jpg) no-repeat center center
+        }
+        .view .mask, .view .content {
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0
+        }
+        .view img {
+            display: block;
+            position: relative
+        }
+        .view h2 {
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            font-size: 17px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            margin: 20px 0 0 0
+        }
+        .view p {
+            font-family: Georgia, serif;
+            font-style: italic;
+            font-size: 12px;
+            position: relative;
+            color: #fff;
+            padding: 10px 20px 20px;
+            text-align: center
+        }
+        .view a.info {
+            display: inline-block;
+            text-decoration: none;
+            padding: 7px 14px;
+            background: #000;
+            color: #fff;
+            text-transform: uppercase;
+            box-shadow: 0 0 1px #000
+        }
+        .view a.info:hover {
+            box-shadow: 0 0 5px #000
+        }
     }
 
 
@@ -75,9 +134,9 @@
 
 .rewards {
     .title {
-        //background-image: url("../img/rewards.jpg");
-        //background-position: 70% 90%;
-        //background-size: cover;
+        background-image: url("../img/rewards.jpg");
+        background-position: 70% 90%;
+        background-size: cover;
     }
 
 
