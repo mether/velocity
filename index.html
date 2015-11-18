@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/set2.css">
     <link rel="stylesheet" href="css/flickity.css">
     <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/ihover.min.css">
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
@@ -21,8 +22,6 @@
     <link rel="stylesheet" href="css/mediaQueries.css">
 
     <script src="js/angular.js"></script>
-
-
 </head>
 <body>
 
@@ -73,18 +72,50 @@
 
 <div class="partners container-fluid" >
     <div class="row content hidden-xs">
+        <!--<div class="col-md-4">-->
+        <!--<img src="img/points-card.png" class="img-circle content__icons">-->
+        <!--<h2 class="text-center">CARD PARTNERS</h2>-->
+        <!--<p class="text-center">Swipe for the sky</p>-->
+        <!--</div>-->
         <div class="col-md-4">
-            <img src="img/points-card.png" class="img-circle content__icons">
+            <div class="ih-item circle effect10 bottom_to_top"><a href="#">
+                <div class="img">
+                    <img src="img/points-card.png" alt="img">
+                </div>
+                <div class="info">
+                    <h3>SWIPE</h3>
+                    <p>Monotonectally productize high standards.</p>
+                </div>
+            </a>
+            </div>
             <h2 class="text-center">CARD PARTNERS</h2>
             <p class="text-center">Swipe for the sky</p>
         </div>
         <div class="col-md-4">
-            <img src="img/points-everyday.png" class="img-circle content__icons">
+            <div class="ih-item circle effect10 bottom_to_top"><a href="#">
+                <div class="img">
+                    <img src="img/points-everyday.png" alt="img">
+                </div>
+                <div class="info">
+                    <h3>EVERYDAY</h3>
+                    <p>Monotonectally productize high standards. </p>
+                </div>
+            </a>
+            </div>
             <h2 class="text-center">EVERYDAY REWARDS</h2>
             <p class="text-center">Points take you places</p>
         </div>
         <div class="col-md-4">
-            <img src="img/points-fuel.png" class="img-circle content__icons">
+            <div class="ih-item circle effect10 bottom_to_top"><a href="#">
+                <div class="img">
+                    <img src="img/points-fuel.png" alt="img">
+                </div>
+                <div class="info">
+                    <h3>FUEL</h3>
+                    <p>Monotonectally productize high standards.</p>
+                </div>
+            </a>
+            </div>
             <h2 class="text-center">FUEL REWARDS</h2>
             <p class="text-center">Fill up and fly with BP</p>
         </div>
@@ -117,27 +148,28 @@
             <h3>Take your rewards worldwide.</h3>
         </div>
     </div>
-    <!--<div class="row content">-->
-        <!--<div class="view view-fifth">-->
-            <!--<img src="img/benefits-value.png" width="200" />-->
-            <!--<div class="mask">-->
-                <!--<h2>Hover Style #5</h2>-->
-                <!--<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>-->
-                <!--<a href="#" class="info">Read More</a>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
     <div class="row content">
         <div class="col-md-4">
-            <img src="img/benefits-value.png" class="content__icons">
-            <!--<h2 class="text-center">Greater Value</h2>-->
+            <div class="view view-fifth">
+                <img src="img/benefits-value.png" class="content__icons">
+                <div class="mask">
+                    <h2 class="text-center">GREATER<br/>VALUE</h2>
+                    <p class="text-center">Authoritatively procrastinate cutting-edge leadership skills rather than clicks-and-mortar infomediaries.</p>
+                </div>
+            </div>
         </div>
+
         <div class="col-md-4">
             <h1 class="text-center">It pays to be with Velocity</h1>
         </div>
         <div class="col-md-4">
-            <img src="img/benefits-choices.png" class="content__icons">
-            <!--<h2 class="text-center">Greater Choices</h2>-->
+            <div class="view view-fifth">
+                <img src="img/benefits-choices.png" class="content__icons">
+                <div class="mask">
+                    <h2 class="text-center">GREATER BENEFITS</h2>
+                    <p class="text-center">Authoritatively procrastinate cutting-edge leadership skills rather than clicks-and-mortar infomediaries.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -207,15 +239,15 @@
 
                         </div>
                         <div class="row">
-                            <div class="col-md-5 col-md-offset-2">
-                                <span class="input input--ruri">
+                            <div class="col-md-5 ">
+                                <span class="input input--ruri ">
                                     <input class="input__field input__field--ruri" type="text" id="promo" />
                                     <label class="input__label input__label--ruri" for="promo">
                                         <span class="input__label-content input__label-content--ruri">Velocity Promo Code</span>
                                     </label>
                                  </span>
                             </div>
-                            <div class="col-md-5 ">
+                            <div class="col-md-5 col-md-offset-2">
                                 <span class="input input--ruri">
                                     <input class="input__field input__field--ruri" type="text" id="bp" />
                                     <label class="input__label input__label--ruri" for="bp">
@@ -242,6 +274,11 @@
                 <div class="luggage col-md-8 col-md-offset-2">
                     <div class="triangle"></div>
                     <form class="">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="text-center">This item belongs to:</h2>
+                            </div>
+                        </div>
                         <div class="row">
 
                             <div class="col-md-8">
@@ -293,7 +330,7 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <span class="input input--ruri">
-                                    <input ng-model="email" class="input__field input__field--ruri" type="text" id="email" />
+                                    <input ng-model="email" class="input__field input__field--ruri" type="email" id="email" />
                                     <label class="input__label input__label--ruri" for="email">
                                         <span class="input__label-content input__label-content--ruri">Email</span>
                                     </label>
@@ -320,7 +357,7 @@
                 <div class=" col-md-8 col-md-offset-2">
                     <form class="passport">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="col-md-12">
                                     <h2 class="text-center">PASSPORT</h2>
                                 </div>
@@ -331,12 +368,40 @@
                                         <h4 class="text-center">Date of Birth</h4>
                                     </div>
                                     <div class="col-md-4">
-                                        <span class="input input--ruri">
-                                            <input class="input__field input__field--ruri" ng-model="day" type="text" id="bday" />
-                                            <label class="input__label input__label--ruri" for="bday">
-                                                <span class="input__label-content input__label-content--ruri">Day</span>
-                                            </label>
-                                        </span>
+                                        <select class="cs-select cs-skin-border">
+                                            <option ng-model="bDay" value="" disabled selected>Day</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
                                     </div>
                                     <div class="col-md-4">
                                         <span class="input input--ruri">
@@ -357,15 +422,15 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-8">
                                 <span class="input input--ruri">
-                                    <input class="input__field input__field--ruri" type="text" id="pass" />
+                                    <input class="input__field input__field--ruri" type="password" id="pass" />
                                     <label class="input__label input__label--ruri" for="pass">
                                         <span class="input__label-content input__label-content--ruri">Password</span>
                                     </label>
                                 </span>
                                 <span class="input input--ruri">
-                                    <input class="input__field input__field--ruri" type="text" id="passC" />
+                                    <input class="input__field input__field--ruri" type="password" id="passC" />
                                     <label class="input__label input__label--ruri" for="passC">
                                         <span class="input__label-content input__label-content--ruri">Confirm Password</span>
                                     </label>
