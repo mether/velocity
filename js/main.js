@@ -1,15 +1,26 @@
-//$('input').blur(function(event) {
-//    var inputVal = this.value;
-//
-//    if (inputVal) {
-//        this.classList.add('value-exists');
-//    } else {
-//        this.classList.remove('value-exists');
-//    }
-//});
 
+$.getJSON("http://www.geoplugin.net/json.gp?jsoncallback=?",function(json){
+
+
+    $('#city').val(json.geoplugin_city);
+    $('#state').val(json.geoplugin_regionName);
+    $('#country').val(json.geoplugin_countryName);
+
+
+});
 $(window).load(function(){
 
+
+
+    $('input').blur(function(event) {
+        var inputVal = this.value;
+
+        if (inputVal) {
+            this.classList.add('value-exists');
+        } else {
+            this.classList.remove('value-exists');
+        }
+    });
 
     // Smooth Scroll Function
 
@@ -92,5 +103,15 @@ $(window).load(function(){
 //        horizontalScrolling: false,
 //        verticalOffset: 40
 //    });
+
+    function validateForm1() {
+        var title = document.forms["myForm"]["fname"].value;
+        if (x == null || x == "") {
+            alert("Name must be filled out");
+            return false;
+        }
+    }
+
+
 
 });

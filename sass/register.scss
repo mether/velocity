@@ -31,30 +31,30 @@
             padding: 3em;
 
             &.slide1{
-                background-image: url('../img/card-back.png');
+                background-image: url('../img/Form1.jpg');
                 background-size: cover;
-                background-position: 50% 10%;
+                background-position: 50% 100%;
             }
             &.slide2{
-                background-image: url('../img/luggage.png');
+                background-image: url('../img/Form2.jpg');
                 background-size: cover;
-                background-position: 50% 10%;
+                background-position: 50% 100%;
                 //position: relative;
             }
 
             &.slide3{
-                background-image: url('../img/plane.png');
+                background-image: url('../img/Form3.jpg');
                 background-size: cover;
-                background-position: 50% 10%;
-                position: relative;
+                background-position: 50% 100%;
+                //position: relative;
 
 
             }
             &.slide4{
-                background-image: url('../img/beach.png');
+                background-image: url('../img/Form4.jpg');
                 background-size: cover;
-                background-position: 50% 10%;
-                position: relative;
+                background-position: 50% 100%;
+                //position: relative;
 
             }
         }
@@ -92,6 +92,8 @@
                 background: transparent;
                 color: #696969;
                 height: 0;
+                margin-left: 1em;
+                padding-right: 1em;
             }
             .cs-skin-border > span {
                 border: none;
@@ -181,18 +183,40 @@
             margin-bottom: 1em;
             min-height: 400px;
             height: 100%;
+
+
+                .input__label--ruri::after {
+                    background: #666;
+                }
+                .input__field--ruri {
+                    color: #666;
+                }
+
+                .input--filled .input__label--ruri .input__label-content--ruri {
+                    color: #666;
+                }
+
             .cs-skin-border{
                 //border: 2px solid #666;
             }
             div.cs-skin-border {
                 background: transparent;
                 color: #696969;
-                height: 0;
+                height: 10px;
+                max-width: 350px;
+                //margin: 0 1em 0 1em;
+                padding: 0.8em;
+                padding-right: 0.3em;
+                margin-bottom: 5em;
             }
             .cs-skin-border > span {
                 border: none;
                 border-bottom: 2px solid #666;
                 padding: 0.66em;
+            }
+
+            .cs-skin-border ul span {
+                padding: 1em;
             }
 
             img{
@@ -214,6 +238,40 @@
             margin-bottom: 1em;
             min-height: 400px;
             height: 100%;
+
+            .input__label--ruri::after {
+                background: #666;
+            }
+            .input__field--ruri {
+                color: #666;
+            }
+
+            .input--filled .input__label--ruri .input__label-content--ruri {
+                color: #666;
+            }
+
+            .cs-skin-border{
+                //border: 2px solid #666;
+            }
+            div.cs-skin-border {
+                background: transparent;
+                color: #696969;
+                height: 10px;
+                max-width: 350px;
+                //margin: 0 1em 0 1em;
+                padding: 0.8em;
+                padding-right: 0.3em;
+                margin-bottom: 5em;
+            }
+            .cs-skin-border > span {
+                border: none;
+                border-bottom: 2px solid #666;
+                padding: 0.66em;
+            }
+
+            .cs-skin-border ul span {
+                padding: 1em;
+            }
 
             &__header{
                 background-color: #8d008e;

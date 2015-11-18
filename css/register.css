@@ -23,23 +23,21 @@
       position: relative;
       padding: 3em; }
       .register .content .gallery-cell.slide1 {
-        background-image: url("../img/card-back.png");
+        background-image: url("../img/Form1.jpg");
         background-size: cover;
-        background-position: 50% 10%; }
+        background-position: 50% 100%; }
       .register .content .gallery-cell.slide2 {
-        background-image: url("../img/luggage.png");
+        background-image: url("../img/Form2.jpg");
         background-size: cover;
-        background-position: 50% 10%; }
+        background-position: 50% 100%; }
       .register .content .gallery-cell.slide3 {
-        background-image: url("../img/plane.png");
+        background-image: url("../img/Form3.jpg");
         background-size: cover;
-        background-position: 50% 10%;
-        position: relative; }
+        background-position: 50% 100%; }
       .register .content .gallery-cell.slide4 {
-        background-image: url("../img/beach.png");
+        background-image: url("../img/Form4.jpg");
         background-size: cover;
-        background-position: 50% 10%;
-        position: relative; }
+        background-position: 50% 100%; }
     .register .content .registerNav {
       display: block;
       margin: 0 auto; }
@@ -62,7 +60,9 @@
       .register .content .card div.cs-skin-border {
         background: transparent;
         color: #696969;
-        height: 0; }
+        height: 0;
+        margin-left: 1em;
+        padding-right: 1em; }
       .register .content .card .cs-skin-border > span {
         border: none;
         border-bottom: 2px solid #fff;
@@ -116,14 +116,26 @@
       margin-bottom: 1em;
       min-height: 400px;
       height: 100%; }
+      .register .content .passport .input__label--ruri::after {
+        background: #666; }
+      .register .content .passport .input__field--ruri {
+        color: #666; }
+      .register .content .passport .input--filled .input__label--ruri .input__label-content--ruri {
+        color: #666; }
       .register .content .passport div.cs-skin-border {
         background: transparent;
         color: #696969;
-        height: 0; }
+        height: 10px;
+        max-width: 350px;
+        padding: 0.8em;
+        padding-right: 0.3em;
+        margin-bottom: 5em; }
       .register .content .passport .cs-skin-border > span {
         border: none;
         border-bottom: 2px solid #666;
         padding: 0.66em; }
+      .register .content .passport .cs-skin-border ul span {
+        padding: 1em; }
       .register .content .passport img {
         max-width: 170px;
         display: block;
@@ -135,6 +147,26 @@
       margin-bottom: 1em;
       min-height: 400px;
       height: 100%; }
+      .register .content .ticket .input__label--ruri::after {
+        background: #666; }
+      .register .content .ticket .input__field--ruri {
+        color: #666; }
+      .register .content .ticket .input--filled .input__label--ruri .input__label-content--ruri {
+        color: #666; }
+      .register .content .ticket div.cs-skin-border {
+        background: transparent;
+        color: #696969;
+        height: 10px;
+        max-width: 350px;
+        padding: 0.8em;
+        padding-right: 0.3em;
+        margin-bottom: 5em; }
+      .register .content .ticket .cs-skin-border > span {
+        border: none;
+        border-bottom: 2px solid #666;
+        padding: 0.66em; }
+      .register .content .ticket .cs-skin-border ul span {
+        padding: 1em; }
       .register .content .ticket__header {
         background-color: #8d008e; }
       .register .content .ticket img {
