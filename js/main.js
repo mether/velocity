@@ -6,6 +6,8 @@ $.getJSON("http://www.geoplugin.net/json.gp?jsoncallback=?",function(json){
     $('#state').val(json.geoplugin_regionName);
     $('#country').val(json.geoplugin_countryName);
 
+    console.log(json);
+
 
 });
 $(window).load(function(){
@@ -85,33 +87,130 @@ $(window).load(function(){
 
     // Stop anchors from refreshing the page
 
-    $("a").click(function(e) {
-        e.preventDefault();
-    });
+    //$("a").click(function(e) {
+    //    e.preventDefault();
+    //});
 
     // Init register gallery
 
-    var $gallery = $('.gallery');
+
 
     // Register gallery continue
 
-    $('.registerNav').on( 'click', function() {
-        $gallery.flickity('next');
-    });
+
 
 //$.stellar({
 //        horizontalScrolling: false,
 //        verticalOffset: 40
 //    });
 
-    function validateForm1() {
-        var title = document.forms["myForm"]["fname"].value;
-        if (x == null || x == "") {
-            alert("Name must be filled out");
-            return false;
-        }
-    }
+
+
 
 
 
 });
+function validateForm1() {
+    $('.registerNav').on( 'click', function() {
+        if($('#fname').val() && $('#lname').val()){
+            var $gallery = $('.gallery');
+            $gallery.flickity('select', 1);
+        } else {
+            console.log('nope');
+            if(!$('#fname').val()) {
+                $('#fname+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#lname').val()) {
+                $('#lname+.input__label--ruri').addClass('invalid');
+            }
+        }
+    });
+}
+function validateForm2() {
+    $('.registerNav').on( 'click', function() {
+        if($('#address').val() && $('#city').val() && $('#post').val() && $('#state').val() && $('#country').val() && $('#email').val() && $('#phone').val()){
+            var $gallery = $('.gallery');
+            $gallery.flickity('select', 2);
+        } else {
+            console.log('nope');
+
+            if(!$('#address').val()) {
+                $('#address+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#city').val()) {
+                $('#city+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#post').val()) {
+                $('#post+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#state').val()) {
+                $('#state+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#country').val()) {
+                $('#country+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#email').val()) {
+                $('#email+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#phone').val()) {
+                $('#phone+.input__label--ruri').addClass('invalid');
+            }
+
+        }
+    });
+}
+function validateForm3() {
+    $('.registerNav').on( 'click', function() {
+        if(($('#bday').val() && $('#bmonth').val() && $('#byear').val() && $('#pass').val() && $('#passC').val() && $('#secA').val()) && ($('#pass').val() == $('#passC').val())){
+            var $gallery = $('.gallery');
+            $gallery.flickity('select', 3);
+
+            $('#cName').val($('#fname').val() + ' ' + $('#lname').val());
+            $('#cAdd').val($('#address').val() + ' ' + $('#city').val() + ' ' + $('#post').val() + ' ' + $('#state').val() + ' ' + $('#country').val());
+            $('#cEmail').val($('#email').val());
+            $('#cPhone').val($('#phone').val());
+            $('#cBirth').val($('#bday').val() + '/' + $('#bmonth').val() + '/' + $('#byear').val());
+
+
+        } else {
+            console.log('nope');
+
+            if(!$('#bday').val()) {
+                $('#bday+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#bmonth').val()) {
+                $('#bmonth+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#byear').val()) {
+                $('#byear+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#pass').val()) {
+                $('#pass+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#passC').val()) {
+                $('#passC+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#secA').val()) {
+                $('#secA+.input__label--ruri').addClass('invalid');
+            }
+            if(!$('#phone').val()) {
+                $('#phone+.input__label--ruri').addClass('invalid');
+            }
+
+            if($('#pass').val() != $('#passC').val()){
+                $('#pass ').css('color', 'red');
+                $('#passC').css('color', 'red');
+            }
+        }
+    });
+}
+function validateForm4() {
+    $('.registerNav').on( 'click', function() {
+        if($('#terms').is(':checked')){
+            var $gallery = $('.gallery');
+            $gallery.flickity('select', 4);
+        } else {
+            console.log('nope');
+        }
+    });
+}

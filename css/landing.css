@@ -1,6 +1,5 @@
 .landing {
-  background-image: url("../img/landing.jpg");
-  background-position: 50% 20%;
+  background: url("../img/landing.jpg") top center no-repeat fixed;
   background-size: cover;
   height: 150%;
   width: 100%;
@@ -66,8 +65,7 @@
   font-family: openSans-bold, sans-serif; }
 
 .benefits .title {
-  background-image: url("../img/benefits.jpg");
-  background-position: 50% 40%;
+  background: url("../img/benefits.jpg") top center no-repeat fixed;
   background-size: cover; }
 .benefits .content h1 {
   font-size: 5em;
@@ -149,8 +147,7 @@
   transform: translateX(300px); }
 
 .rewards .title {
-  background-image: url("../img/rewards.jpg");
-  background-position: 70% 90%;
+  background: url("../img/rewards.jpg") top center no-repeat fixed;
   background-size: cover; }
 .rewards .content {
   background-image: url("../img/rewards-back.png");

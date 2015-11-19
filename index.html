@@ -30,10 +30,10 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <a href="#register" class="button hidden-lg hidden-md hidden-sm">
-                <span>Join Free</span>
+                Join Free
             </a>
-            <a class="navbar-brand header__logo" href="#top">
-                <img class="" src="img/logo.svg">
+            <a class="navbar-brand header__logo" href="https://www.velocityfrequentflyer.com/content/">
+                <img alt="logo" class="" src="img/logo.svg">
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -55,9 +55,14 @@
             <div class="col-md-6 landing__tagline">
                 <h1>Start Earning Today</h1>
                 <h3>Earn points, perks, and reward flights from everyday purchases.</h3>
-                <a href="#register"><button class="button">
+                <a href="#register">
+                    <button class="button hidden-xs">
                     <span>Join Free</span>
-                </button></a>
+                    </button>
+                    <button class="button hidden-lg hidden-md hidden-sm">
+                    Join Free
+                    </button>
+                </a>
             </div>
 
         </div>
@@ -80,7 +85,7 @@
         <div class="col-md-4">
             <div class="ih-item circle effect10 bottom_to_top"><a href="#">
                 <div class="img">
-                    <img src="img/points-card.png" alt="img">
+                    <img src="img/points-card.png" alt="card partners">
                 </div>
                 <div class="info">
                     <h3>SWIPE</h3>
@@ -94,7 +99,7 @@
         <div class="col-md-4">
             <div class="ih-item circle effect10 bottom_to_top"><a href="#">
                 <div class="img">
-                    <img src="img/points-everyday.png" alt="img">
+                    <img src="img/points-everyday.png" alt="shopping">
                 </div>
                 <div class="info">
                     <h3>EVERYDAY</h3>
@@ -108,7 +113,7 @@
         <div class="col-md-4">
             <div class="ih-item circle effect10 bottom_to_top"><a href="#">
                 <div class="img">
-                    <img src="img/points-fuel.png" alt="img">
+                    <img src="img/points-fuel.png" alt="petrol pump">
                 </div>
                 <div class="info">
                     <h3>FUEL</h3>
@@ -122,17 +127,17 @@
     </div>
     <div class="row content hidden-lg hidden-md hidden-sm">
         <div class="col-md-4">
-            <img src="img/points-card.png" class="img-circle content__icons">
-            <h2 class="text-center">CARD Small</h2>
+            <img src="img/points-card.png" alt="cards" class="img-circle content__icons">
+            <h2 class="text-center">CARD PARTNERS</h2>
             <p class="text-center">Swipe for the sky</p>
         </div>
         <div class="col-md-4">
-            <img src="img/points-everyday.png" class="img-circle content__icons">
+            <img src="img/points-everyday.png" alt="shopping" class="img-circle content__icons">
             <h2 class="text-center">EVERYDAY REWARDS</h2>
             <p class="text-center">Points take you places</p>
         </div>
         <div class="col-md-4">
-            <img src="img/points-fuel.png" class="img-circle content__icons">
+            <img src="img/points-fuel.png" alt="petrol pump" class="img-circle content__icons">
             <h2 class="text-center">FUEL REWARDS</h2>
             <p class="text-center">Fill up and fly with BP</p>
         </div>
@@ -148,10 +153,10 @@
             <h3>Take your rewards worldwide.</h3>
         </div>
     </div>
-    <div class="row content">
+    <div class="row content hidden-xs">
         <div class="col-md-4">
             <div class="view view-fifth">
-                <img src="img/benefits-value.png" class="content__icons">
+                <img src="img/benefits-value.png" alt="diamond gradient" class="content__icons">
                 <div class="mask">
                     <h2 class="text-center">GREATER<br/>VALUE</h2>
                     <p class="text-center">With more and more new destinations, it’s easier than ever to rack up Velocity points. You'll earn 5 points per dollar on your base fare for all Virgin flights</p>
@@ -164,12 +169,26 @@
         </div>
         <div class="col-md-4">
             <div class="view view-fifth">
-                <img src="img/benefits-choices.png" class="content__icons">
+                <img src="img/benefits-choices.png" alt="benefits" class="content__icons">
                 <div class="mask">
                     <h2 class="text-center">GREATER BENEFITS</h2>
                     <p class="text-center">Get closer to your next holiday by doing the things you do everyday. Earn points and get exclusive deals from Virgin.</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row content hidden-lg hidden-md hidden-sm">
+        <div class="col-md-4">
+            <img src="img/benefits-value.png" alt="diamond" class="content__icons">
+            <p class="text-center">With more and more new destinations, it’s easier than ever to rack up Velocity points. You'll earn 5 points per dollar on your base fare for all Virgin flights</p>
+        </div>
+
+        <div class="col-md-4">
+            <h1 class="text-center">It pays to be with Velocity</h1>
+        </div>
+        <div class="col-md-4">
+            <img src="img/benefits-choices.png" alt="diamond" class="content__icons">
+            <p class="text-center">Get closer to your next holiday by doing the things you do everyday. Earn points and get exclusive deals from Virgin.</p>
         </div>
     </div>
 </div>
@@ -184,8 +203,12 @@
     </div>
     <div class="row content">
         <div class="col-md-4 col-md-offset-4">
-            <img src="img/cart.png" class="img-circle content__icons">
+            <a href="https://shop.velocityfrequentflyer.com/" target="_blank">
+
+            <img src="img/cart.png" alt="rewards cart" class="img-circle content__icons">
             <h2 class="text-center">REWARDS STORE</h2>
+            </a>
+
         </div>
     </div>
 </div>
@@ -194,11 +217,197 @@
     <div class="row title">
         <div class="overlay"></div>
         <div class="col-md-6 col-sm-12 col-xs-12 title__heading">
-            <h1 class="text-center">Join Now For Free {{fName}}</h1>
+            <h1 class="text-center">Join Now For Free</h1>
         </div>
     </div>
-    <div class="row content ">
-        <div data-flickity-options='{ "draggable": true }' class="gallery js-flickity">
+    <div class="row mobileForm  hidden-lg hidden-md ">
+        <form class="col-sm-6 col-sm-offset-3 col-xs-12 form-horizontal">
+            <fieldset>
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="selectbasic">Title</label>
+                    <div class="col-md-4">
+                        <select id="selectbasic" name="selectbasic" class="form-control">
+                            <option value="1">Mr</option>
+                            <option value="2">Ms</option>
+                            <option value="3">Mrs</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Search input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="searchinput">First Name</label>
+                    <div class="col-md-4">
+                        <input id="searchinput" name="searchinput" type="search" placeholder="First Name" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Search input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="searchinput">Last Name</label>
+                    <div class="col-md-4">
+                        <input id="searchinput" name="searchinput" type="search" placeholder="Last Name" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Velocity Promo Code</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Promo Code" class="form-control input-md">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">BP Temporary Card</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Card No." class="form-control input-md">
+
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Street Address</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Street Address" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">City/Suburb</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="City/Suburb" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Postcode</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Postcode" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">State</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="State" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Country</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Country" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+                <hr>
+
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Email</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Email" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Phone</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Phone" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <hr>
+
+
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="passwordinput">Password</label>
+                    <div class="col-md-4">
+                        <input id="passwordinput" name="passwordinput" type="password" placeholder="Password" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="passwordinput">Confirm Password</label>
+                    <div class="col-md-4">
+                        <input id="passwordinput" name="passwordinput" type="password" placeholder="Confirm Password" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+                <hr>
+
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Birthday</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="DD/MM/YY" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="selectbasic">Security Question</label>
+                    <div class="col-md-4">
+                        <select id="selectbasic" name="selectbasic" class="form-control">
+                            <option value="1">What was the name of the first school you attended?</option>
+                            <option value="2">What is your mothers maiden name?</option>
+                            <option value="">What was the make of your first car?</option>
+                            <option value="">What is your grandmothers maiden name?</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Security Answer</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="Security Answer" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="singlebutton"></label>
+                    <div class="col-md-4">
+                        <button id="singlebutton" name="singlebutton" class="button">Submit</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </div>
+
+
+    <div class="row content hidden-sm hidden-xs">
+        <div data-flickity-options='{ "draggable": false, "setGallerySize": false }' class="gallery js-flickity">
 
             <div class="gallery-cell slide1">
                 <div class=" col-md-8 col-md-offset-2">
@@ -213,7 +422,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-2">
-                                <select required  class="cs-select cs-skin-border">
+                                <select required ng-model="title" id="title" class="cs-select cs-skin-border">
                                     <option value="" disabled selected>Title</option>
                                     <option value="mr">Mr</option>
                                     <option value="mrs">Mrs</option>
@@ -222,7 +431,7 @@
                             </div>
                             <div class="col-md-5">
                                 <span class="input input--ruri">
-                                    <input required  ng-model="fName" class="input__field input__field--ruri" type="text" id="fname" />
+                                    <input pattern="/\b([A-Z][a-z.]+[ ]*)+/gm" required  ng-model="fName" value="rrrr" class="input__field input__field--ruri" type="text" id="fname" />
                                     <label class="input__label input__label--ruri" for="fname">
                                         <span class="input__label-content input__label-content--ruri">First Name</span>
                                     </label>
@@ -230,7 +439,7 @@
                             </div>
                             <div class="col-md-5">
                                 <span class="input input--ruri">
-                                    <input required  ng-model="lName" class="input__field input__field--ruri" type="text" id="lname" />
+                                    <input pattern="/\b([A-Z][a-z.]+[ ]*)+/gm" required  ng-model="lName" class="input__field input__field--ruri" type="text" id="lname" />
                                     <label class="input__label input__label--ruri" for="lname">
                                         <span class="input__label-content input__label-content--ruri">Last Name</span>
                                     </label>
@@ -259,7 +468,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="" disbled class="button registerNav">
+                                <a href="" onclick="validateForm1()" disbled class="button registerNav">
                                     <span>Continue</span>
                                 </a>
                             </div>
@@ -315,9 +524,9 @@
                                     </label>
                                  </span>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4">{{country}}
                                 <span class="input input--ruri">
-                                    <input required  ng-model="country" class="input__field input__field--ruri" type="text" id="country" />
+                                    <input required  ng-model="country" ng-init="country = country.value" class="input__field input__field--ruri" type="text" id="country" />
                                     <label class="input__label input__label--ruri" for="country">
                                         <span class="input__label-content input__label-content--ruri">Country</span>
                                     </label>
@@ -330,7 +539,7 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <span class="input input--ruri">
-                                    <input required  ng-model="email" class="input__field input__field--ruri" type="email" id="email" />
+                                    <input required  ng-model="emailz" class="input__field input__field--ruri" type="email" id="email" />
                                     <label class="input__label input__label--ruri" for="email">
                                         <span class="input__label-content input__label-content--ruri">Email</span>
                                     </label>
@@ -346,7 +555,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <a href="" class="button registerNav">
+                            <a href="" onclick="validateForm2()"  class="button registerNav">
                                 <span>Continue</span>
                             </a>
                         </div>
@@ -397,7 +606,7 @@
                             <div class="col-md-6 col-md-offset-1">
                                 <div class="col-md-12">
                                     <span class="input input--ruri">
-                                    <input required  class="input__field input__field--ruri" type="password" id="pass" />
+                                    <input pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required  class="input__field input__field--ruri" type="password" id="pass" />
                                     <label class="input__label input__label--ruri" for="pass">
                                         <span class="input__label-content input__label-content--ruri">Password</span>
                                     </label>
@@ -433,7 +642,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <a href="" class="button registerNav">
+                                <a href="" onclick="validateForm3()"  class="button registerNav">
                                     <span>Continue</span>
                                 </a>
                             </div>
@@ -445,24 +654,25 @@
             </div>
             <div class="gallery-cell slide4">
                 <div class=" col-md-8 col-md-offset-2">
-                    <form class="ticket">
-                        <div class="row ticket__header">
-                            <div class="col-md-3">
-                                <img src="img/logo.svg">
-                            </div>
-                            <div class="col-md-9">
-                                <h2>DESTINATION: PARADISE</h2>
-                            </div>
+                    <div class="row ticket__header">
+                        <div class="col-md-3">
+                            <img src="img/logo.svg">
                         </div>
+                        <div class="col-md-9">
+                            <h2>DESTINATION: PARADISE</h2>
+                        </div>
+                    </div>
+                    <form class="ticket">
+
                         <div class="col-md-6">
                             <span class="input input--ruri">
-                                <input required class="input__field input__field--ruri" value="{{fName + ' ' + lName}}" type="text" id="cName" />
+                                <input required class="input__field input__field--ruri" value="" type="text" id="cName" />
                                 <label class="input__label input__label--ruri" for="cName">
                                     <span class="input__label-content input__label-content--ruri">Name</span>
                                 </label>
                             </span>
                             <span class="input input--ruri">
-                                <input required class="input__field input__field--ruri" value="{{street + ' ' + suburb + ' ' + state + ' ' + post }}" type="text" id="cAdd" />
+                                <input required class="input__field input__field--ruri" value="" type="text" id="cAdd" />
                                 <label class="input__label input__label--ruri" for="cAdd">
                                     <span class="input__label-content input__label-content--ruri">Address</span>
                                 </label>
@@ -471,7 +681,7 @@
                         </div>
                         <div class="col-md-6">
                             <span class="input input--ruri">
-                                <input required class="input__field input__field--ruri" value="{{email}}" type="text" id="cEmail" />
+                                <input required class="input__field input__field--ruri"  type="text" id="cEmail" />
                                 <label class="input__label input__label--ruri" for="cEmail">
                                     <span class="input__label-content input__label-content--ruri">Email</span>
                                 </label>
@@ -481,7 +691,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                     <span class="input input--ruri">
-                                        <input required  class="input__field input__field--ruri" value="{{phone}}" type="text" id="cPhone" />
+                                        <input required  class="input__field input__field--ruri" type="text" id="cPhone" />
                                         <label class="input__label input__label--ruri" for="cPhone">
                                             <span class="input__label-content input__label-content--ruri">Phone</span>
                                         </label>
@@ -489,7 +699,7 @@
                                     </div>
                                     <div class="col-md-4">
                                     <span class="input input--ruri">
-                                        <input required class="input__field input__field--ruri" value="{{day + '/' + month + '/' + year}}" type="text" id="cBirth" />
+                                        <input required class="input__field input__field--ruri"  type="text" id="cBirth" />
                                         <label class="input__label input__label--ruri" for="cBirth">
                                             <span class="input__label-content input__label-content--ruri">Birthday</span>
                                         </label>
@@ -501,20 +711,29 @@
                         <div class="col-md-12">
                             <div class="checkbox text-center">
                                 <label>
-                                    <input required  type="checkbox" value="">
+                                    <input required id="terms" type="checkbox">
                                     I agree to the
-                                    <a href="https://www.velocityfrequentflyer.com/content/TermsConditions/" target="_blank">
-                                        Terms & Conditions
-                                    </a>
-                                </label>
+
+                                </label><a href="https://www.velocityfrequentflyer.com/content/TermsConditions/" target="_blank">
+                                Terms & Conditions
+                            </a>
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <a href="" class="button registerNav">
-                                <span>Continue</span>
+                            <a href="" onclick="validateForm4()"  class="button registerNav">
+                                <span>Submit</span>
                             </a>
                         </div>
                     </form>
+                </div>
+            </div>
+            <div class="gallery-cell slide5">
+                <div class=" col-md-8 col-md-offset-2">
+                    <div class="success">
+                        <h1>Success.</h1>
+                        <h2>Welcome to the club. You are now a Velocity member.</h2>
+                        <h3>Check your inbox for your confirmation email.</h3>
+                    </div>
                 </div>
             </div>
         </div>

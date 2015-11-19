@@ -1,17 +1,49 @@
 .register {
   height: 100%;
   width: 100%; }
+  .register .mobileForm {
+    padding-top: 2em;
+    color: #fff;
+    background: #8d008e;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #8d008e), color-stop(100%, #dd0042));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom, #8d008e 0%, #dd0042 100%);
+    /* IE10+ */
+    background: linear-gradient(to top, #8d008e 0%, #dd0042 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d008e', endColorstr='#dd0042',GradientType=1 );
+    /* IE6-9 */
+    opacity: 0.7; }
+    .register .mobileForm .button {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 1em;
+      background: #dd0042;
+      border: 1px solid #fff;
+      width: 100%; }
+      .register .mobileForm .button:hover, .register .mobileForm .button:active {
+        background: #8d008e; }
   .register .button {
     padding: 10px 0;
     margin: 2em 0; }
   .register .title {
-    background-image: url("../img/benefits.jpg");
-    background-position: 50% 40%;
+    background-image: url("../img/register.jpg");
+    background-position: 50% 30%;
+    background-size: cover;
     height: 20%; }
   .register .content {
     height: 80%;
     position: relative;
     padding: 0px; }
+    .register .content .invalid {
+      color: #dd0042 !important; }
     .register .content .gallery {
       height: 100%;
       width: 100%; }
@@ -36,6 +68,10 @@
         background-position: 50% 100%; }
       .register .content .gallery-cell.slide4 {
         background-image: url("../img/Form4.jpg");
+        background-size: cover;
+        background-position: 50% 100%; }
+      .register .content .gallery-cell.slide5 {
+        background-image: url("../img/Form5.jpg");
         background-size: cover;
         background-position: 50% 100%; }
     .register .content .registerNav {
@@ -140,13 +176,32 @@
         max-width: 170px;
         display: block;
         margin: 0 auto; }
+    .register .content .ticket__header {
+      background-color: #e6e6e6;
+      border-radius: 10px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      margin: 0;
+      width: 100%; }
+      .register .content .ticket__header img {
+        padding: 1em; }
+      .register .content .ticket__header h2 {
+        color: #fff;
+        text-align: right;
+        padding: 1em;
+        font-weight: 500; }
     .register .content .ticket {
       background-color: #e6e6e6;
       padding: 2em;
       border-radius: 10px;
       margin-bottom: 1em;
-      min-height: 400px;
-      height: 100%; }
+      min-height: 350px;
+      height: 100%;
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px; }
+      .register .content .ticket .input__label {
+        color: #e6e6e6;
+        z-index: -1000; }
       .register .content .ticket .input__label--ruri::after {
         background: #666; }
       .register .content .ticket .input__field--ruri {
@@ -175,5 +230,21 @@
         margin: 0 auto; }
       .register .content .ticket h2 {
         color: #fff; }
+    .register .content .success {
+      background-color: #fff;
+      padding: 3em;
+      border-radius: 10px;
+      margin-bottom: 2em;
+      min-height: 450px;
+      border: 6px solid #dd0042;
+      color: #dd0042;
+      height: 100%;
+      text-align: center; }
+      .register .content .success h1 {
+        font-size: 8em; }
+      .register .content .success h2 {
+        font-size: 3em; }
+      .register .content .success h3 {
+        font-size: 2em; }
 
 /*# sourceMappingURL=register.css.map */
